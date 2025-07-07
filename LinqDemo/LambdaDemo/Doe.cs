@@ -52,6 +52,11 @@ namespace LambdaDemo
                 p => Console.WriteLine($"{p.Description} kost {p.Price:C}")
             );
 
+            var summary = products.Select(p => (Name: p.Description, IsCheap: p.Price < 30));
+
+            Console.WriteLine(summary.Count());
+
+
             //Parallel.Invoke(
             //    () => { },
             //    () => { },
