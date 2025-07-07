@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -22,6 +21,11 @@ class Yield
         enumerator.MoveNext();
         enumerator.MoveNext();
         enumerator.MoveNext();
+
+        //IList<int> bla;
+        //movie.Actors.Add(alisha);
+        //System.Collections.Concurrent.
+
     }
 
     public static IEnumerable<int> GeefGetallen()
